@@ -4,10 +4,10 @@ public class Deck {
     List<Card> cards = new ArrayList<Card>();
     public Deck() {
         // Create an initial list of 52 cards (13 of each of the 4 types)
-        this.setCard();
+        this.setCards();
     }
 
-    public void setCard() {
+    public void setCards() {
         this.cards.clear();
         String[] types = {"Heart", "Clover", "Spade", "Diamond"};
         Map<String, Integer> titleValueMap = new HashMap<String, Integer>(){{

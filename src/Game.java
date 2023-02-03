@@ -75,7 +75,7 @@ public class Game {
         // Clear all existing cards in the hand - in case it's not a fresh game
         userHand.empty();
         dealerHand.empty();
-        this.deck.setCard();
+        this.deck.setCards();
 
         // Initial hands of 2 cards chosen randomly
         userHand.addCard(deck.hit());
