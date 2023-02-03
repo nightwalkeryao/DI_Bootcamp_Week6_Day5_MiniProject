@@ -15,4 +15,8 @@ public class Hand {
     public boolean isBlackjack() {
         return getValue() == 21;
     }
+
+    public void empty() {
+        this.cards.clear();
+    }
 }
