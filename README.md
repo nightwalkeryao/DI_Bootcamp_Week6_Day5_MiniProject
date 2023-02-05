@@ -1,4 +1,4 @@
-# DI Bootcamp - Week 6 - Day 4 - Exercises XP Ninja - Mini Project : Blackjack Game
+# DI Bootcamp - Week 6 - Day 5 - Mini Project : Blackjack Game
 
 Write a program that lets the user play Blackjack. The game will be a simplified version of Blackjack as it is played in a casino. The computer will act as the dealer. As in the previous exercise, your program will need the classes defined in Card.java, Deck.java, Hand.java, and BlackjackHand.java.
 
